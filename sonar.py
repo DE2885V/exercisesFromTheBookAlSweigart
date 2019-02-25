@@ -12,9 +12,9 @@ def getNewBoard():
         for y in range(15): # ...
         # ...
             if random.randint(0,1) == 0:
-                board[x].append('~')
+                board[x].append('.') #~')
             else:
-                board[x].append('`')
+                board[x].append('.') #`')
     return board
 
 def drawBoard(board):
